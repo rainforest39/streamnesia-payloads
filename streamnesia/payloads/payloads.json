@@ -199,7 +199,6 @@
             { "File": "cross.payload", "Delay": "00:00:00" }
         ]
     },
-	    },
     {
         "Name": "Spawn some stephanos",
         "Sequence": [
