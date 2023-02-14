@@ -199,6 +199,13 @@
             { "File": "cross.payload", "Delay": "00:00:00" }
         ]
     },
+	    },
+    {
+        "Name": "Spawn some stephanos",
+        "Sequence": [
+            { "File": "stephano.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Wide Putin",
         "Sequence": [
