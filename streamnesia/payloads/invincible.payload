@@ -1,3 +1,0 @@
-SetLocalVarFloat("StreamnesiaPlayerHealth", GetPlayerHealth());
-SetPlayerHealth(9999.9f);
-SetMessageExact("You are invincible for 30 seconds...", 0.0f);

@@ -1,2 +1,0 @@
-SetMessageExact("Sawrunner is here...", 0.0f);
-CreateEntityAtFirstArea("{0}", "sawrunner.ent", false);
