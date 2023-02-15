@@ -1,15 +1,9 @@
 [
-	{
-        "Name": "Angriest Grunt",
+    {
+        "Name": "Inverted camera controls (30 seconds)",
         "Sequence": [
-            { "File": "servant_grunt_angry.payload", "Delay": "00:00:00" }
-	]
-    },
-	{
-        "Name": "Disable Lantern (1 minute)",
-        "Sequence": [
-            { "File": "disable-lantern.payload", "Delay": "00:01:00" }
-			{ "File": "disable-lantern.anti.payload", "Delay": "00:00:00" }
+            { "File": "inverted_camera_controls.payload", "Delay": "00:00:00" },
+            { "File": "decrease_player_look_speed.anti.payload", "Delay": "00:00:30" }
         ]
-    },
+    }
 ]
