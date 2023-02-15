@@ -444,6 +444,19 @@
             { "File": "attack_grunt.payload", "Delay": "00:00:00" }
         ]
     },
+	    {
+        "Name": "Angriest Grunt",
+        "Sequence": [
+            { "File": "servant_grunt_angry.payload", "Delay": "00:00:00" }
+        ]
+    },
+		    {
+        "Name": "Disable Lantern (1 minute)",
+        "Sequence": [
+            { "File": "disable-lantern.payload", "Delay": "00:01:00" }
+			{ "File": "disable-lantern.anti.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Brute Slap",
         "Sequence": [
