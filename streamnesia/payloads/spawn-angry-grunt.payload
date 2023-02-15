@@ -1,2 +1,0 @@
-SetMessageExact("Get rekt!", 0.0f);
-CreateEntityAtFirstArea("{0}", "servant_grunt_angry.ent", false);
