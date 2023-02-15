@@ -388,6 +388,12 @@
             { "File": "spawn-suitor.payload", "Delay": "00:00:00" }
         ]
     },
+	    {
+        "Name": "Spawn sawrunner (not disappearing)",
+        "Sequence": [
+            { "File": "sawrunner.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Teleporting naked guy",
         "Sequence": [
