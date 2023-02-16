@@ -65,6 +65,12 @@
             { "File": "goodies.payload", "Delay": "00:00:00" }
         ]
     },
+	    {
+        "Name": "Spawn Fake Goodies",
+        "Sequence": [
+            { "File": "fakegoodies.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Rain",
         "Sequence": [
