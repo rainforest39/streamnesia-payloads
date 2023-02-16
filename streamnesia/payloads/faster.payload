@@ -1,2 +1,14 @@
 SetMessageExact("Faster is here...", 0.0f);
-CreateEntityAtFirstArea("{0}", "faster.ent", false);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("StreamnesiaFaster"))
+{{
+    SetEntityActive("StreamnesiaFaster", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("StreamnesiaFaster", "faster.ent", true);
+}}
+
+SetEntityPos("StreamnesiaFaster", baseX + 2.0f, baseY, baseZ);

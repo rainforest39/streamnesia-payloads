@@ -1,2 +1,14 @@
 SetMessageExact("Psycho is here...", 0.0f);
-CreateEntityAtFirstArea("{0}", "psycho.ent", false);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("StreamnesiaPsycho"))
+{{
+    SetEntityActive("StreamnesiaPsycho", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("StreamnesiaPsycho", "psycho.ent", true);
+}}
+
+SetEntityPos("StreamnesiaPsycho", baseX + 2.0f, baseY, baseZ);

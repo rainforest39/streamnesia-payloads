@@ -1,2 +1,14 @@
 SetMessageExact("Sawrunner is here...", 0.0f);
-CreateEntityAtFirstArea("{0}", "sawrunner.ent", false);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("StreamnesiaSawrunner"))
+{{
+    SetEntityActive("StreamnesiaSawrunner", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("StreamnesiaSawrunner", "sawrunner.ent", true);
+}}
+
+SetEntityPos("StreamnesiaSawrunner", baseX + 2.0f, baseY, baseZ);
