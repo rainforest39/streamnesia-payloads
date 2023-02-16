@@ -394,6 +394,12 @@
             { "File": "sawrunner.payload", "Delay": "00:00:00" }
         ]
     },
+		    {
+        "Name": "Spawn faster (not disappearing)",
+        "Sequence": [
+            { "File": "faster.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Teleporting naked guy",
         "Sequence": [

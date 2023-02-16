@@ -1,0 +1,2 @@
+SetMessageExact("Faster is here...", 0.0f);
+CreateEntityAtFirstArea("{0}", "faster.ent", false);
