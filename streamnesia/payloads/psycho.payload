@@ -1,0 +1,2 @@
+SetMessageExact("Psycho is here...", 0.0f);
+CreateEntityAtFirstArea("{0}", "psycho.ent", false);
