@@ -1,0 +1,8 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("{0}", "fakecabinet_nice", false);
+SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
+
+SetMessageExact("Here's a closet", 0.0f);

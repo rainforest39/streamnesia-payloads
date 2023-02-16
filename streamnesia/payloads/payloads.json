@@ -71,6 +71,12 @@
             { "File": "fakegoodies.payload", "Delay": "00:00:00" }
         ]
     },
+		    {
+        "Name": "Spawn Portable Closet",
+        "Sequence": [
+            { "File": "portablecloset.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Rain",
         "Sequence": [
