@@ -1,3 +1,0 @@
-SetGlobalVarFloat("Streamnesia_JumpPos_X", GetPlayerPosX());
-SetGlobalVarFloat("Streamnesia_JumpPos_Y", GetPlayerPosY());
-SetGlobalVarFloat("Streamnesia_JumpPos_Z", GetPlayerPosZ());
