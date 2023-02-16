@@ -372,6 +372,12 @@
             { "File": "explosion_jumpscare.payload", "Delay": "00:00:00" }
         ]
     },
+	{
+	        "Name": "Rapid Cave-in explosion",
+        "Sequence": [
+            { "File": "rapid_explosion_jumpscare.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Disable jump and crouch (20 seconds)",
         "Sequence": [
