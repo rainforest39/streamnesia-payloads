@@ -81,20 +81,6 @@
         ]
     },
     {
-        "Name": "Almost Blind",
-        "Sequence": [
-            { "File": "almost-blind.payload", "Delay": "00:00:00" },
-            { "File": "almost-blind.anti.payload", "Delay": "00:00:15" }
-        ]
-    },
-    {
-        "Name": "Completely Blind",
-        "Sequence": [
-            { "File": "blind.payload", "Delay": "00:00:00" },
-            { "File": "blind.anti.payload", "Delay": "00:00:10" }
-        ]
-    },
-    {
         "Name": "Sepia Vision",
         "Sequence": [
             { "File": "sepia.payload", "Delay": "00:00:00" },
@@ -111,13 +97,6 @@
         "Name": "Play Shadow roar",
         "Sequence": [
             { "File": "roar.payload", "Delay": "00:00:00" }
-        ]
-    },
-    {
-        "Name": "Paralyze player",
-        "Sequence": [
-            { "File": "paralyze.payload", "Delay": "00:00:00" },
-            { "File": "paralyze.anti.payload", "Delay": "00:00:05" }
         ]
     },
     {
@@ -163,20 +142,6 @@
         "Name": "All lights out",
         "Sequence": [
             { "File": "lamps-off.payload", "Delay": "00:00:00" }
-        ]
-    },
-    {
-        "Name": "Quake FOV (30 seconds)",
-        "Sequence": [
-            { "File": "fov.payload", "Delay": "00:00:00" },
-            { "File": "fov.anti.payload", "Delay": "00:00:30" }
-        ]
-    },
-    {
-        "Name": "Zoom vision (30 seconds)",
-        "Sequence": [
-            { "File": "zoom.payload", "Delay": "00:00:00" },
-            { "File": "fov.anti.payload", "Delay": "00:00:30" }
         ]
     },
     {
@@ -334,17 +299,17 @@
             { "File": "terror_meter_sfx.anti.payload", "Delay": "00:00:10" }
         ]
     },
-    {
-        "Name": "Cave-in explosion",
-        "Sequence": [
-            { "File": "explosion_jumpscare.payload", "Delay": "00:00:00" }
-        ]
-    },
-    {
+	    {
         "Name": "Disable jump and crouch (20 seconds)",
         "Sequence": [
             { "File": "disable_jump_crouch.payload", "Delay": "00:00:00" },
             { "File": "disable_jump_crouch.anti.payload", "Delay": "00:00:20" }
+        ]
+    },
+    {
+        "Name": "Cave-in explosion",
+        "Sequence": [
+            { "File": "explosion_jumpscare.payload", "Delay": "00:00:00" }
         ]
     },
     {
