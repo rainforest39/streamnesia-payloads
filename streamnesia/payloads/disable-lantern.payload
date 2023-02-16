@@ -1,3 +1,0 @@
-SetMessageExact("My hands are too weak...", 0.0f);
-SetLanternActive(false, true);
-SetLanternDisabled(true);

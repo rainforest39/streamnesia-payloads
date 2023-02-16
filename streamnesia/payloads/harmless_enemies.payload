@@ -1,2 +1,0 @@
-SetEnemyDisableTriggers("*", true);
-SetMessageExact("All enemies ignore you for 10 seconds...", 0.0f);
