@@ -389,6 +389,12 @@
         ]
     },
 	    {
+        "Name": "Spawn chuan (not disappearing)",
+        "Sequence": [
+            { "File": "chuan.payload", "Delay": "00:00:00" }
+        ]
+    },
+	    {
         "Name": "Spawn sawrunner (not disappearing)",
         "Sequence": [
             { "File": "sawrunner.payload", "Delay": "00:00:00" }

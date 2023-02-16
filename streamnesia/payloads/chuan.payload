@@ -1,0 +1,2 @@
+SetMessageExact("Chuan is here...", 0.0f);
+CreateEntityAtFirstArea("{0}", "chuanhkiet6a4.ent", false);

@@ -1,0 +1,11 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="chuan_whine01.ogg" />
+  		<Sound File="chuan_whine02.ogg" />
+  		<Sound File="chuan_whine03.ogg" />
+  		<Sound File="chuan_whine04.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1" MinDistance="2" MaxDistance="16" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.7" Priority="1" />
+</SOUNDENTITY>
