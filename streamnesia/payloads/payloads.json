@@ -167,6 +167,11 @@
             { "File": "lamps-off.payload", "Delay": "00:00:00" }
         ]
     },
+	{        "Name": "All lights on",
+        "Sequence": [
+            { "File": "lamps-on.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Quake FOV (30 seconds)",
         "Sequence": [

@@ -1,0 +1,2 @@
+SetMessageExact("All lights are back on...", 0.0f);
+SetLampLit("*", true, true);
