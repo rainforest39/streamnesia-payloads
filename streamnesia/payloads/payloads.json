@@ -309,6 +309,12 @@
             { "File": "uwu.payload", "Delay": "00:00:00" }
         ]
     },
+	    {
+        "Name": "Amogus",
+        "Sequence": [
+            { "File": "amogus.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Unlock all doors",
         "Sequence": [

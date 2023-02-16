@@ -1,0 +1,2 @@
+PlayGuiSound("amoguss.ogg", 1.0f);
+SetMessageExact("Amogus", 0.0f);
