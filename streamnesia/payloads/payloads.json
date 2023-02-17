@@ -491,6 +491,12 @@
             { "File": "attack_grunt.payload", "Delay": "00:00:00" }
         ]
     },
+	    {
+        "Name": "Spawn A Lantern",
+        "Sequence": [
+            { "File": "lantern.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Brute Slap",
         "Sequence": [
