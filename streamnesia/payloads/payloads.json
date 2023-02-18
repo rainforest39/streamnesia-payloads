@@ -1,8 +1,14 @@
 [
 	    {
+<<<<<<< HEAD
         "Name": "Absurd's Cassette Music",
         "Sequence": [
             { "File": "music.payload", "Delay": "00:00:00" }
+=======
+        "Name": "Teleports back to the beginning (literally)",
+        "Sequence": [
+            { "File": "beginning.payload", "Delay": "00:00:00" }
+>>>>>>> parent of bcb7c02 (fixed)
         ]
     }
 ]
