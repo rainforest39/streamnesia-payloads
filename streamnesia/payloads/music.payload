@@ -4,6 +4,5 @@ float baseZ = GetPlayerPosZ();
 
 CreateEntityAtFirstArea("{0}", "items_cassette_recorder.ent", false);
 SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
-PlaySoundAtEntity(aani8.ogg, aani8.snt, items_cassette_recorder.ent, 0.9f, false);
 
 SetMessageExact("Some nice music.", 0.0f);
