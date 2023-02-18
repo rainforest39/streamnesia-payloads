@@ -1,0 +1,2 @@
+RemoveItem("Lantern");
+SetMessageExact("Removing your lantern.", 0.0f);

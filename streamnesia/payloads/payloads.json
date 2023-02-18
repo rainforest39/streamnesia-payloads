@@ -1,5 +1,11 @@
 [
     {
+        "Name": "Removing Lantern",
+        "Sequence": [
+            { "File": "removelantern.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
         "Name": "Surround with barrels",
         "File": "barrels.payload",
         "Sequence": [
