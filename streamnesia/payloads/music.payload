@@ -2,7 +2,8 @@ float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
-CreateEntityAtFirstArea("{0}", "items_cassette_recorder.ent", false);
+CreateEntityAtFirstArea("{0}", "storage_box_wood01.ent", false);
 SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
+PlaySoundAtEntity("aani8.ogg", "anni8.snt", "storage_box_wood01.ent", 1.0f, false);
 
-SetMessageExact("Some nice music.", 0.0f);
+SetMessageExact("This is a nice musicbox.", 0.0f);

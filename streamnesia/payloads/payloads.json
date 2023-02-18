@@ -18,12 +18,6 @@
             { "File": "full-oil.payload", "Delay": "00:00:00" }
         ]
     },
-	    {
-        "Name": "Absurd's Cassette Music",
-        "Sequence": [
-            { "File": "music.payload", "Delay": "00:00:00" }
-        ]
-    },
     {
         "Name": "Jumpscare",
         "Sequence": [
