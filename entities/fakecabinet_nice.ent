@@ -20,8 +20,8 @@
             <BodyShape Active="true" ID="3" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1.7 0.27 1" RelativeTranslation="-0.00263649 -1.36278 0.239795" Rotation="0 0 0" Scale="1.7 0.27 1" ShapeType="Box" Tag="" WorldPos="0 0.14778 0" />
             <BodyShape Active="true" ID="4" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1.7 0.25 1" RelativeTranslation="-0.00263649 1.36278 0.239795" Rotation="0 0 0" Scale="1.7 0.25 1" ShapeType="Box" Tag="" WorldPos="0 2.87334 0" />
             <BodyShape Active="true" ID="5" Name="Shape_3" RelativeRotation="1.5708 -0 0" RelativeScale="1.7 0.025 2.4" RelativeTranslation="-0.00263649 -0.0133499 -0.248447" Rotation="1.5708 0 0" Scale="1.7 0.025 2.4" ShapeType="Box" Tag="" WorldPos="0 1.49721 -0.488242" />
-            <BodyShape Active="true" ID="6" Name="Shape_4" RelativeRotation="-1.57079 1.5708 3.14159" RelativeScale="0.95 0.025 2.4" RelativeTranslation="0.832453 -0.0133499 0.248447" Rotation="-1.57079 1.5708 3.14159" Scale="0.95 0.025 2.4" ShapeType="Box" Tag="" WorldPos="0.83509 1.49721 0.008652" />
-            <BodyShape Active="true" ID="7" Name="Shape_5" RelativeRotation="-1.57079 1.5708 3.14159" RelativeScale="0.95 0.025 2.4" RelativeTranslation="-0.832453 -0.0133499 0.248447" Rotation="-1.57079 1.5708 3.14159" Scale="0.95 0.025 2.4" ShapeType="Box" Tag="" WorldPos="-0.829817 1.49721 0.008652" />
+            <BodyShape Active="true" ID="6" Name="Shape_4" RelativeRotation="1.5708 1.5708 -2.53518e-006" RelativeScale="0.95 0.025 2.4" RelativeTranslation="0.832453 -0.0133499 0.248447" Rotation="1.5708 1.5708 -2.53518e-006" Scale="0.95 0.025 2.4" ShapeType="Box" Tag="" WorldPos="0.83509 1.49721 0.008652" />
+            <BodyShape Active="true" ID="7" Name="Shape_5" RelativeRotation="1.5708 1.5708 -2.53518e-006" RelativeScale="0.95 0.025 2.4" RelativeTranslation="-0.832453 -0.0133499 0.248447" Rotation="1.5708 1.5708 -2.53518e-006" Scale="0.95 0.025 2.4" ShapeType="Box" Tag="" WorldPos="-0.829817 1.49721 0.008652" />
             <BodyShape Active="true" ID="8" Name="Shape_6" RelativeRotation="1.5708 -0 0" RelativeScale="0.7 0.025 2.4" RelativeTranslation="0 0 0" Rotation="1.5708 0 0" Scale="0.7 0.025 2.4" ShapeType="Box" Tag="" WorldPos="-0.4067 1.49721 0.466921" />
             <BodyShape Active="true" ID="10" Name="Shape_7" RelativeRotation="1.5708 -0 0" RelativeScale="0.7 0.025 2.4" RelativeTranslation="0 0 0" Rotation="1.5708 0 0" Scale="0.7 0.025 2.4" ShapeType="Box" Tag="" WorldPos="0.399063 1.49721 0.466921" />
         </Shapes>
@@ -55,7 +55,7 @@
         </Joints>
         <Animations />
     </ModelData>
-    <UserDefinedVariables EntitySubType="Push" EntityType="Object">
+    <UserDefinedVariables EntitySubType="Grab" EntityType="Object">
         <Var Name="Health" Value="100" />
         <Var Name="Toughness" Value="0" />
         <Var Name="MaxFocusDistance" Value="2" />
@@ -88,8 +88,19 @@
         <Var Name="MinHitDamageSpeed" Value="3" />
         <Var Name="LifeLength" Value="0" />
         <Var Name="IsFood" Value="false" />
-        <Var Name="PushAtPoint" Value="false" />
-        <Var Name="PushForceMul" Value="1" />
-        <Var Name="PushImpulse" Value="2" />
+        <Var Name="GrabUseDepth" Value="false" />
+        <Var Name="GrabDepth" Value="1.5" />
+        <Var Name="GrabDepthInc" Value="0.15" />
+        <Var Name="GrabMinDepth" Value="1.0" />
+        <Var Name="GrabMaxDepth" Value="2.2" />
+        <Var Name="GrabUseOffset" Value="false" />
+        <Var Name="GrabPositionOffset" Value="0" />
+        <Var Name="GrabRotationOffset" Value="0" />
+        <Var Name="GrabThrowImpulse" Value="0.2" />
+        <Var Name="GrabMassMul" Value="12" />
+        <Var Name="GrabForceMul" Value="0.2" />
+        <Var Name="GrabTorqueMul" Value="0.15" />
+        <Var Name="GrabUseRotation" Value="true" />
+        <Var Name="GrabSkipNonOuterBodies" Value="false" />
     </UserDefinedVariables>
 </Entity>
