@@ -1,2 +1,2 @@
 SetMessageExact("Go back to the beginning.", 0.0f);
-TeleportPlayer("PlayerStartArea_1");
+TeleportPlayer(PlayerStartArea_1);
