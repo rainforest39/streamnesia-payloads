@@ -472,6 +472,12 @@
             { "File": "boxed.payload", "Delay": "00:00:00" }
         ]
     },
+			{
+        "Name": "Kill the player",
+        "Sequence": [
+            { "File": "death.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Spawn a Violin",
         "Sequence": [
