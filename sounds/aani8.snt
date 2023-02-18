@@ -1,0 +1,8 @@
+<SOUNDENTITY>
+<SOUNDS>
+<Main>
+<Sound File="aani8.ogg" />
+</Main>
+</SOUNDS>
+<PROPERTIES Volume="10" MinDistance="0.1" MaxDistance="5" Random="1" Interval="0" FadeEnd="false" FadeStart="False" Stream="false" Loop="false" Use3D="true" Blockable="false" BlockVolumeMul="0.5" Priority="1" />
+</SOUNDENTITY> 
