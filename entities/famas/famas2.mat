@@ -1,7 +1,7 @@
 <Material>
     <Main DepthTest="True" PhysicsMaterial="Default" Type="SolidDiffuse" />
     <TextureUnits>
-        <Diffuse AnimFrameTime="" AnimMode="" File="famas2.jpg" Mipmaps="true" Type="2D" Wrap="Repeat" />
+        <Diffuse AnimFrameTime="" AnimMode="" File="famas2.dds" Mipmaps="true" Type="2D" Wrap="Repeat" />
     </TextureUnits>
     <SpecificVariables>
         <Var Name="HeightMapScale" Value="0.05000000074505806" />

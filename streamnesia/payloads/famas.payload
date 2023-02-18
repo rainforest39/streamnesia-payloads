@@ -2,7 +2,7 @@ float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
-CreateEntityAtFirstArea("{0}", "cof_famas.ent", false);
+CreateEntityAtFirstArea("{0}", "famas.ent", false);
 SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
 
 SetMessageExact("Shoot them or something! Ammo must be somewhere...", 1.0f);
