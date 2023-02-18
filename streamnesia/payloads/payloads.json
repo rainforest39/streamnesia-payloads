@@ -405,6 +405,12 @@
             { "File": "statue.payload", "Delay": "00:00:00" }
         ]
     },
+	    {
+        "Name": "Boxed (encercled by boxes)",
+        "Sequence": [
+            { "File": "boxed.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Spawn water monster",
         "Sequence": [
