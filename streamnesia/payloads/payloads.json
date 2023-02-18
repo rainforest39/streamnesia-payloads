@@ -466,6 +466,12 @@
             { "File": "beginning.payload", "Delay": "00:00:00" }
         ]
     },
+		{
+        "Name": "Boxed (bunch of boxes surronding)",
+        "Sequence": [
+            { "File": "boxed.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Spawn a Violin",
         "Sequence": [
