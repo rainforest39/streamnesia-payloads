@@ -4,6 +4,6 @@ float baseZ = GetPlayerPosZ();
 
 CreateEntityAtFirstArea("{0}", "storage_box_wood01.ent", false);
 SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
-PlaySoundAtEntity("aani8.ogg", "anni8.snt", "storage_box_wood01.ent", 1.0f, false);
+PlaySoundAtEntity("aani8", "anni8.snt", "storage_box_wood01.ent", 1.0f, true);
 
 SetMessageExact("This is a nice musicbox.", 0.0f);
