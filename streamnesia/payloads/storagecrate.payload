@@ -1,0 +1,8 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("{0}", "storage_box_wood02_moveable.ent", false);
+SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
+
+SetMessageExact("Barricade or do something with it.", 0.0f);

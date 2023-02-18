@@ -460,6 +460,12 @@
             { "File": "hidden.anti.payload", "Delay": "00:00:04" }
         ]
     },
+		{
+        "Name": "Spawn A Storage Box",
+        "Sequence": [
+            { "File": "storagecrate.payload", "Delay": "00:00:00" }
+        ]
+    },
 	{
         "Name": "Teleports back to the beginning (literally)",
         "Sequence": [
