@@ -2,8 +2,11 @@ float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
-CreateEntityAtFirstArea("{0}", "storage_box_wood01.ent", false);
+CreateEntityAtFirstArea("{0}", "items_cassette_recorder.ent", false);
 SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
+<<<<<<< HEAD
 PlaySoundAtEntity("aani8", "anni8.snt", "storage_box_wood01.ent", 1.0f, true);
+=======
+>>>>>>> parent of 614af11 (perfect)
 
-SetMessageExact("This is a nice musicbox.", 0.0f);
+SetMessageExact("Some nice music.", 0.0f);
