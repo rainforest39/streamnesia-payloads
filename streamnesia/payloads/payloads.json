@@ -1,13 +1,4 @@
 [
-{
-        "Name": "Absurd's Cassette Music",
-        "Sequence": [
-<<<<<<< HEAD
-            { "File": "music.payload", "Delay": "00:00:00" }
-=======
-            { "File": "barrels.payload", "Delay": "00:00:00" }
-        ]
-    },
     {
         "Name": "Give full lantern oil",
         "Sequence": [
@@ -154,6 +145,12 @@
         "Name": "Play random spooky music",
         "Sequence": [
             { "File": "spooky-music.payload", "Delay": "00:00:00" }
+        ]
+    },
+	    {
+        "Name": "Teleports back to the beginning (literally)",
+        "Sequence": [
+            { "File": "beginning.payload", "Delay": "00:00:00" }
         ]
     },
     {
