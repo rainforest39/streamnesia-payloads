@@ -1,2 +1,2 @@
-RemoveItem("Lantern");
+RemoveItem("lantern.ent");
 SetMessageExact("Removing your lantern.", 0.0f);
