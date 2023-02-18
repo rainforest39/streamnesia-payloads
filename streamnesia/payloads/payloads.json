@@ -392,6 +392,13 @@
             { "File": "almost-blind.anti.payload", "Delay": "00:00:20" }
         ]
     },
+	    {
+        "Name": "Lock all doors (for 30 seconds)",
+        "Sequence": [
+            { "File": "lock.payload", "Delay": "00:00:00" },
+            { "File": "lock.anti.payload", "Delay": "00:00:30" }
+        ]
+    },
     {
         "Name": "Relax with candles",
         "Sequence": [

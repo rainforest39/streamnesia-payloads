@@ -1,0 +1,2 @@
+SetMessageExact("Every doors are now unlocked." float_afTime);
+SetSwingDoorLocked("*", false);
