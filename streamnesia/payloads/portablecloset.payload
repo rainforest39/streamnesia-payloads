@@ -3,6 +3,6 @@ float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
 CreateEntityAtFirstArea("{0}", "cabinet_nice.ent", false);
-SetEntityPos("{0}", baseX, baseY, baseZ);
+SetEntityPos("{0}", baseX, baseY + 1.5f, baseZ);
 
 SetMessageExact("Here's a closet", 0.0f);
