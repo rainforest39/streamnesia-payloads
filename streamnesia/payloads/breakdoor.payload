@@ -1,2 +1,2 @@
-SetMessageExact("KABOOM!", 0.0f);\
+SetMessageExact("KABOOM!", 0.0f);
 SetPropHealth("*", 0.0f);
