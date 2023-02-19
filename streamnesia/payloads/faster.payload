@@ -1,2 +1,14 @@
-CreateEntityAtFirstArea("Player", "faster.ent", true);
 SetMessageExact("Faster is here...", 0.0f);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("{0}"))
+{{
+    SetEntityActive("{0}", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("{0}", "faster.ent", true);
+}}
+
+SetEntityPos("{0}", baseX + 2.0f, baseY, baseZ);
