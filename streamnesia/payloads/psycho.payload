@@ -1,1 +1,2 @@
- CreateEntityAtFirstArea("Player", "psycho.ent", true);
+CreateEntityAtFirstArea("Player", "psycho.ent", true);
+SetMessageExact("Psycho is here...", 0.0f);

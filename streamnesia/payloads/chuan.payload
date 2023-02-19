@@ -1,1 +1,2 @@
 CreateEntityAtFirstArea("Player", "chuanhkiet6a4.ent", true);
+SetMessageExact("Chuan is here...", 0.0f);

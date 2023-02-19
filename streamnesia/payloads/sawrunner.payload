@@ -1,1 +1,2 @@
  CreateEntityAtFirstArea("Player", "sawrunner.ent", true);
+SetMessageExact("Sawrunner is here...", 0.0f);
