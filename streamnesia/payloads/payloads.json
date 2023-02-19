@@ -466,6 +466,12 @@
             { "File": "storagecrate.payload", "Delay": "00:00:00" }
         ]
     },
+			{
+        "Name": "Surronded by wood platforms",
+        "Sequence": [
+            { "File": "woodform.payload", "Delay": "00:00:00" }
+        ]
+    },
 	{
         "Name": "Teleports back to the beginning (literally)",
         "Sequence": [
