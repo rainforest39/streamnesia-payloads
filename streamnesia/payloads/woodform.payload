@@ -12,8 +12,5 @@ for(int x = -1; x < 2; x++)
         }}
         CreateEntityAtFirstArea("{0}" + x + z, "lift_wood.ent", true);
         SetEntityPos("{0}" + x + z, baseX + x, baseY + 0.5f, baseZ + z);
-        
-        CreateEntityAtFirstArea("{1}" + x + z, "lift_wood.ent", true);
-        SetEntityPos("{1}" + x + z, baseX + x, baseY + 1.5f, baseZ + z);
     }}  
 }}
