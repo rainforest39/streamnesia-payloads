@@ -1,2 +1,2 @@
- CreateEntityAtFirstArea("Player", "faster.ent", true);
- SetMessageExact("Faster is here...", 0.0f);
+CreateEntityAtFirstArea("Player", "faster.ent", true);
+SetMessageExact("Faster is here...", 0.0f);
