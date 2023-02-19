@@ -1,2 +1,6 @@
 CreateEntityAtFirstArea("Player", "sawrunner.ent", true);
 SetMessageExact("Sawrunner is here...", 0.0f);
+SetEntityPos("sawrunner.ent", baseX + 2.0f, baseY, baseZ);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
