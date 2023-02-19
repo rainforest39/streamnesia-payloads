@@ -2,9 +2,7 @@ float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
-for(int t = 0; t < 1; t++)
-{{
-    CreateEntityAtFirstArea("{0}tinder" + t, "lantern.ent", false);
-    SetEntityPos("{0}tinder" + t, baseX + 1.0f + (t * 0.1f), baseY, baseZ);
-}}
+CreateEntityAtFirstArea("{0}", "cabinet_nice.ent", false);
+SetEntityPos("{0}", baseX, baseY + 1.2f, baseZ);
+
 SetMessageExact("Look around! We spawned a lantern!", 0.0f);
