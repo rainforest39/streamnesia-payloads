@@ -484,6 +484,12 @@
             { "File": "teleportrandom.payload", "Delay": "00:00:00" }
         ]
     },
+			{
+        "Name": "Destroys everything (blows up all entities)",
+        "Sequence": [
+            { "File": "breakdoor.payload", "Delay": "00:00:00" }
+        ]
+    },
 		{
         "Name": "Boxed (bunch of boxes surronding)",
         "Sequence": [
