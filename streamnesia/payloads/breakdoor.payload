@@ -1,3 +1,7 @@
 SetMessageExact("KABOOM!", 0.0f);
-SetPropHealth("mansion.ent,castle.ent", 0.0f);
+SetPropHealth("mansion.ent", 0.0f);
+SetPropHealth("metal.ent", 0.0f);
+SetPropHealth("prison.ent", 0.0f);
+SetPropHealth("cellar_wood01.ent", 0.0f);
+SetPropHealth("sewer_arched.ent", 0.0f);
 PlayGuiSound("explosion_rock_large.snt", 100.0f);
