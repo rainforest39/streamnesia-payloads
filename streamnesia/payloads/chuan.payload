@@ -1,14 +1,1 @@
-SetMessageExact("Chuan is here...", 0.0f);
-float baseX = GetPlayerPosX();
-float baseY = GetPlayerPosY();
-float baseZ = GetPlayerPosZ();
-if(GetEntityExists("StreamnesiaChuan"))
-{{
-    SetEntityActive("StreamnesiaChuan", true);
-}}
-else
-{{
-    CreateEntityAtFirstArea("StreamnesiaChuan", "chuanhkiet6a4.ent", true);
-}}
-
-SetEntityPos("StreamnesiaSawrunner", baseX + 2.0f, baseY, baseZ);
+CreateEntityAtFirstArea("Player", "chuanhkiet6a4.ent", true);
