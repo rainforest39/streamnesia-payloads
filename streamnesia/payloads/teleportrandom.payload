@@ -1,0 +1,2 @@
+SetMessageExact("Poof, go randomly somewhere!", 0.0f);
+TeleportPlayer("PlayerStartArea_*");
