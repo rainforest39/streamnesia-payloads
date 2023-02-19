@@ -2,13 +2,13 @@ SetMessageExact("Suitor is here...", 0.0f);
 float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
-if(GetEntityExists("StreamnesiaSuitor"))
+if(GetEntityExists("{0}"))
 {{
-    SetEntityActive("StreamnesiaSuitor", true);
+    SetEntityActive("{0}", true);
 }}
 else
 {{
-    CreateEntityAtFirstArea("StreamnesiaSuitor", "enemy_suitor.ent", true);
+    CreateEntityAtFirstArea("{0}", "enemy_suitor.ent", true);
 }}
 
-SetEntityPos("StreamnesiaSuitor", baseX + 2.0f, baseY, baseZ);
+SetEntityPos("{0}", baseX + 2.0f, baseY, baseZ);

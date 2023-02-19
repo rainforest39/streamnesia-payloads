@@ -1,2 +1,14 @@
 SetMessageExact("Ghoul is here...", 0.0f);
-CreateEntityAtFirstArea("Player", "ghoul.ent", true);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("{0}"))
+{{
+    SetEntityActive("{0}", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("{0}", "ghoul.ent", true);
+}}
+
+SetEntityPos("{0}", baseX + 2.0f, baseY, baseZ);

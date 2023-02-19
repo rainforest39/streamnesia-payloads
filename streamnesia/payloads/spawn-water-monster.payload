@@ -4,13 +4,13 @@ float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
-if(GetEntityExists("StreamnesiaWatermonster"))
+if(GetEntityExists("{0}"))
 {{
-    SetEntityActive("StreamnesiaWatermonster", true);
+    SetEntityActive("{0}", true);
 }}
 else
 {{
-    CreateEntityAtFirstArea("StreamnesiaWatermonster", "waterlurker.ent", true);
+    CreateEntityAtFirstArea("{0}", "waterlurker.ent", true);
 }}
 
-SetEntityPos("StreamnesiaWatermonster", baseX + 2.0f, baseY, baseZ);
+SetEntityPos("{0}", baseX + 2.0f, baseY, baseZ);
