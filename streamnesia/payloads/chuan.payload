@@ -1,2 +1,14 @@
-CreateEntityAtFirstArea("Player", "chuanhkiet6a4.ent", true);
 SetMessageExact("Chuan is here...", 0.0f);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("{0}"))
+{{
+    SetEntityActive("{0}", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("{0}", "chuanhkiet6a4.ent", true);
+}}
+
+SetEntityPos("{0}", baseX + 2.0f, baseY, baseZ);
