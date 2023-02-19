@@ -2,7 +2,7 @@
     {
         "Name": "Unlock all doors",
         "Sequence": [
-            { "File": "woodplatform.payload", "Delay": "00:00:00" }
+            { "File": "woodform.payload", "Delay": "00:00:00" }
         ]
     }
 ]
