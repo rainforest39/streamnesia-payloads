@@ -1,8 +1,8 @@
 [
-			{
-        "Name": "Destroys everything (blows up all entities)",
+    {
+        "Name": "Unlock all doors",
         "Sequence": [
-            { "File": "breakdoor.payload", "Delay": "00:00:00" }
+            { "File": "unlock.payload", "Delay": "00:00:00" }
         ]
     }
 ]
