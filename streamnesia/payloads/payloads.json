@@ -453,6 +453,12 @@
             { "File": "spelos.payload", "Delay": "00:00:00" }
         ]
     },
+	    {
+        "Name": "Movable Spooky Skeleton Spelos",
+        "Sequence": [
+            { "File": "movespelos.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Disguised Brute Jumpscare",
         "Sequence": [
@@ -482,12 +488,6 @@
         "Name": "Teleports randomly",
         "Sequence": [
             { "File": "teleportrandom.payload", "Delay": "00:00:00" }
-        ]
-    },
-			{
-        "Name": "Destroys everything (blows up all entities)",
-        "Sequence": [
-            { "File": "breakdoor.payload", "Delay": "00:00:00" }
         ]
     },
 		{
