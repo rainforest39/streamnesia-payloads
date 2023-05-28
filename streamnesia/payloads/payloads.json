@@ -459,6 +459,12 @@
             { "File": "movespelos.payload", "Delay": "00:00:00" }
         ]
     },
+		    {
+        "Name": "Spawn a clown (not disappearing)",
+        "Sequence": [
+            { "File": "clown.payload", "Delay": "00:00:00" }
+        ]
+    },
     {
         "Name": "Disguised Brute Jumpscare",
         "Sequence": [
