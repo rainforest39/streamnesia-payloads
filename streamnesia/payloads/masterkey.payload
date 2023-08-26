@@ -1,5 +1,5 @@
 GiveItem("key_study", "Puzzle", "masterkey_*", "key_study.tga", 1);
-ItemName_masterkey_*">Master Key</Entry>
+<Entry Name="ItemName_masterkey_*">Master Key</Entry>
 AddUseItemCallback("", "masterkey_*", "*", "StreamnesiaUnlockDoor", true);
 SetMessageExact("Unlock only at once anything of your choice. Be wise with the master key.", 0.0f);
 StreamnesiaUnlockDoor("masterkey_*", "*")
