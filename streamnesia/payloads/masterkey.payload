@@ -3,5 +3,4 @@ SetMessageExact("Unlock only at once a door of your choice. Be wise with the mas
 UnlockDoor("masterkey_*", "*")
 SetSwingDoorLocked("*", false, true);
 SetLevelDoorLocked("*", false)
-PlaySoundAtEntity("", "unlock_door.snt", "", 0, false);
 RemoveItem("masterkey_*");
