@@ -1,9 +1,7 @@
 AddUseItemCallback("", "masterkey_*", "*", "UnlockDoor", true);
 SetMessageExact("Unlock only at once a door of your choice. Be wise with the master key.", 0.0f);
-ItemName_masterkey_*">Master Key
-ItemDesc_masterkey_*">Be wise.
-UnlockDoor(string &in asItem, string &in asEntity)
+UnlockDoor("masterkey_*", "*")
 SetSwingDoorLocked("*", false, true);
 SetLevelDoorLocked("*", false)
-PlaySoundAtEntity("", "unlock_door.snt", "*", 0, false);
+PlaySoundAtEntity("", "unlock_door.snt", "", 0, false);
 RemoveItem("masterkey_*");
