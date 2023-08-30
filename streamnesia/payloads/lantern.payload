@@ -3,6 +3,6 @@ float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
 CreateEntityAtFirstArea("{0}", "lantern.ent", false);
-SetEntityPos("{0}", baseX, baseY + 1.2f, baseZ);
+SetEntityPos("{0}", baseX, baseY + 1.25f, baseZ);
 
 SetMessageExact("Look around! We spawned a lantern!", 0.0f);
