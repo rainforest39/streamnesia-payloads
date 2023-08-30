@@ -2,7 +2,7 @@
 		    {
         "Name": "Remove Lantern",
         "Sequence": [
-            { "File": "removelantern.payload", "Delay": "00:00:00" }
+            { "File": "skyrim.payload", "Delay": "00:00:00" }
         ]
     }
 ]
