@@ -1,3 +1,0 @@
-SetLanternActive(false, true);
-RemoveItem("lantern");
-SetMessageExact("Removing your lantern.", 0.0f);

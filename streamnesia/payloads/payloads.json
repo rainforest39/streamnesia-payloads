@@ -552,9 +552,9 @@
         ]
     },
 		    {
-        "Name": "Remove Lantern",
+        "Name": "Minecraft Cave Sounds",
         "Sequence": [
-            { "File": "removelantern.payload", "Delay": "00:00:00" }
+            { "File": "cavesound.payload", "Delay": "00:00:00" }
         ]
     },
     {

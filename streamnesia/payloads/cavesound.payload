@@ -1,0 +1,2 @@
+PlayGuiSound("cavesound.ogg", 1.0f);
+SetMessageExact("You should place torches...", 0.0f);
