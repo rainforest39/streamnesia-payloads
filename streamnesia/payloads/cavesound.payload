@@ -1,4 +1,5 @@
 PlayGuiSound("cavesound.ogg", 1.0f);
+PlayMusic("jonjon.ogg", true, 1, 5, 2, true);
 SetMessageExact("You should place torches...", 0.0f);
 SetFogActive(true);
 SetFogColor(0.0f, 0.0f, 0.0f, 1.0f);
