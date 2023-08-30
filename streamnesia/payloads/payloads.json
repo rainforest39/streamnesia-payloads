@@ -71,12 +71,6 @@
             { "File": "fakegoodies.payload", "Delay": "00:00:00" }
         ]
     },
-		    {
-        "Name": "Spawn Portable Closet",
-        "Sequence": [
-            { "File": "portablecloset.payload", "Delay": "00:00:00" }
-        ]
-    },
     {
         "Name": "Rain",
         "Sequence": [
@@ -540,9 +534,9 @@
         ]
     },
 	    {
-        "Name": "Spawn A Lantern",
+        "Name": "Stops all music",
         "Sequence": [
-            { "File": "lantern.payload", "Delay": "00:00:00" }
+            { "File": "stopmusic.payload", "Delay": "00:00:00" }
         ]
     },
 		    {
