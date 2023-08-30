@@ -4,3 +4,8 @@ SetMessageExact("You should place torches...", 0.0f);
 SetFogActive(true);
 SetFogColor(0.0f, 0.0f, 0.0f, 1.0f);
 SetFogProperties(1.0f, 3.5f, 1.0f, false);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+CreateEntityAtFirstArea("{0}", "torch.ent", false);
+SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
