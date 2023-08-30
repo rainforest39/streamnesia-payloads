@@ -554,7 +554,8 @@
 		    {
         "Name": "Minecraft Cave Sounds",
         "Sequence": [
-            { "File": "cavesound.payload", "Delay": "00:00:00" }
+            { "File": "cavesound.payload", "Delay": "00:00:00" },
+			{ "File": "cavesound.anti.payload", "Delay": "00:02:23" }
         ]
     },
     {
