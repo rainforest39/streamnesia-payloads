@@ -1,1 +1,3 @@
+AutoSave();
+AddTimer("timerloader", "3.0f", "ChangeMap");
 ChangeMap("hoc1.map","PlayerStartArea_1","jonjon.ogg", "jonjon.ogg");
