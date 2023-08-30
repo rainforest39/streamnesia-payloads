@@ -1,0 +1,96 @@
+void OnStart()
+{
+	AddUseItemCallback("", "key_1", "level_wood_1", "UsedKeyOnDoor", true);
+	AddEntityCollideCallback("Player", "Scary_Area_1", "Scary_1", true, 1);
+	AddEntityCollideCallback("Player", "Scary_Area_2", "Scary_2", true, 1);
+	AddEntityCollideCallback("Player", "ScriptArea_1", "Scary_3", true, 1);
+	AddEntityCollideCallback("Player", "ScriptArea_3", "Scary_4", true, 1);
+	SetEntityPlayerInteractCallback("key_1", "Pickup_1", true);
+	AddEntityCollideCallback("Player" , "ScriptArea_2" , "BarrelScare" , true , 1);
+	SetEntityPlayerInteractCallback("note1", "ReadPaper", true);
+	AddUseItemCallback("", "key_study_1", "door1", "d1", true);
+	AddUseItemCallback("", "key_study_2", "door2", "d2", true);
+	SetPlayerLampOil(0.0f);
+}
+
+void UsedKeyOnDoor(string &in asItem, string &in asEntity)
+{
+	SetLevelDoorLocked("level_wood_1", false);
+	PlaySoundAtEntity("", "unlock_door", "level_wood_1", 0, false);
+	RemoveItem("key_1");
+}
+
+void Scary_1(string &in asParent, string &in asChild, int alState)
+{
+	PlaySoundAtEntity("", "21_intro_scream.snt", "Player", 0, false);
+	GiveSanityDamage(5.0f, true);
+	SetEntityActive("altar_lamp_1", true);
+	SetLampLit("torch_static01_2", true, true);
+	SetLampLit("torch_static01_1", true, true);
+}
+
+void Scary_2(string &in asParent, string &in asChild, int alState)
+{
+	SetEntityActive("sledge_1", true);
+	AddPropImpulse("sledge_1", 30, 0, 0, "world");
+	PlaySoundAtEntity("sledge_1", "24_iron_maiden.snt", "Player", 0, false);
+	AddTimer("", 0.3f, "Timer_2");
+}
+
+void Pickup_1(string &in asEntity)
+{
+	SetEntityActive("John1", true);
+	GiveSanityDamage(5.0f, true);
+	AddTimer("", 1.0f, "Timer_1");
+}
+
+void Timer_1(string &in asTimer)
+{
+	SetEntityActive("John1", false);
+	GiveSanityDamage(5.0f, true);
+}
+
+void BarrelScare(string &in asParent, string &in asChild, int alState)
+{
+	AddPropImpulse("barrel01_1", -80, 20, 0, "world");
+	AddPropImpulse("barrel01_2", -80, 20, 0, "world");
+	AddPropImpulse("barrel01_3", -80, 20, 0, "world");
+	AddPropImpulse("barrel01_4", -80, 20, 0, "world");
+	AddTimer("", 0.3f, "Timer_2");
+}
+
+
+void Scary_3(string &in asParent, string &in asChild, int alState)
+{
+	SetEntityActive("jesus2", true);
+	AddPropImpulse("jesus2", 30, 0, 0, "world");
+	PlaySoundAtEntity("jesus2", "24_iron_maiden.snt", "Player", 0, false);
+	AddTimer("", 0.3f, "Timer_2");
+}
+
+void Scary_4(string &in asParent, string &in asChild, int alState)
+{
+	SetEntityActive("stoned", true);
+	AddPropImpulse("stoned", -30, 0, 0, "world");
+	AddTimer("", 0.3f, "Timer_2");
+}
+
+void d1(string &in asItem, string &in asEntity)
+{
+    SetSwingDoorLocked("door1", false, true);
+    PlaySoundAtEntity("", "unlock_door", "d1", 0, false);
+    RemoveItem("key_study_1");
+}
+
+void d2(string &in asItem, string &in asEntity)
+{
+    SetSwingDoorLocked("door2", false, true);
+    PlaySoundAtEntity("", "unlock_door", "d2", 0, false);
+    RemoveItem("key_study_2");
+}
+
+
+void ReadPaper(string& asName)
+{
+SetEntityPlayerInteractCallback("note1","", true);
+}
