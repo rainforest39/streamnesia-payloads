@@ -1,17 +1,8 @@
-SetMessageExact("You need platforms.", 0.0f);
 float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
-for(int x = -1; x < 2; x++)
-{{
-    for(int z = -1; z < 2; z++)
-    {{
-        if(x == 0 && z == 0)
-        {{
-            continue;
-        }}
-        CreateEntityAtFirstArea("{0}" + x + z, "lift_wood.ent", true);
-        SetEntityPos("{0}" + x + z, baseX + x, baseY + 0.5f, baseZ + z);
-    }}  
-}}
+CreateEntityAtFirstArea("{0}", "lift_wood.ent", false);
+SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
+
+SetMessageExact("You need a platform.", 0.0f);
